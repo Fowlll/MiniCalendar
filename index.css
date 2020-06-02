@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, p{
+    font-family: "Mukta";
+}
+
+h1{
+    position: absolute;
+    top: 10%;
+}
+
+/* Calendar */
+#calendar{
+    background-color: #333;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 10px 30px;
+}
+
+#day-name{
+    font-size: 25px;
+    line-height: 0px;
+}
+#dayNumber{
+    font-size: 80px;
+    line-height: 0px;
+}
+#month{
+    font-size: 40px;
+    line-height: 0px;
+}
+#month-year{
+    font-size: 30px;
+    line-height: 0px;
+}
+
+
+/* Footer */
+#copyright{
+    position: absolute;
+    top: 85%;
+    font-size: 20px;
+}
